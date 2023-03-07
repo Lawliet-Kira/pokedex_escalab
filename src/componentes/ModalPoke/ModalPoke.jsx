@@ -2,6 +2,7 @@ import React from 'react';
 import { CircularProgress, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, Image, Spinner, Flex, Text, Heading, Stack, Divider, ModalFooter } from '@chakra-ui/react';
 import PokeStats from './PokeStats/PokeStats';
 
+// stateless component
 const ModalPoke = ({ isOpen, onClose, pokemon }) => (
     <Modal size={['xs', 'sm', 'md', 'lg', 'xl']} isOpen={isOpen} onClose={onClose} isCentered trapFocus={false}>
         <ModalOverlay />

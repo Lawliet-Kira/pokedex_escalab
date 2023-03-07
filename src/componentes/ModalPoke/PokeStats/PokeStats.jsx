@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Grid, GridItem, Icon, Text, Spacer } from '@chakra-ui/react';
+import { Grid, GridItem, Icon, Text  } from '@chakra-ui/react';
 import { GiPointySword, GiCrackedShield, GiBouncingSword } from "react-icons/gi";
 import { AiFillHeart } from "react-icons/ai";
 import { BsFillShieldFill, BsSpeedometer } from "react-icons/bs";
