@@ -5,7 +5,7 @@ import PokeStats from './PokeStats/PokeStats';
 // stateless component
 const ModalPoke = ({ isOpen, onClose, pokemon }) => (
     <Modal size={['xs', 'sm', 'md', 'lg', 'xl']} isOpen={isOpen} onClose={onClose} isCentered trapFocus={false}>
-        <ModalOverlay />
+        <ModalOverlay h="100%" w="100%" />
         <ModalContent h={["520px", "420px"]}>
             <ModalCloseButton />
             <ModalHeader> </ModalHeader>
